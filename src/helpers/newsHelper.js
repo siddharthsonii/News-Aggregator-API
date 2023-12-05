@@ -1,13 +1,5 @@
 const {default: axios} = require('axios');
 
-function newsCallback(url, callback) {
-  axios.get(url).then(resp => {
-      callback(null, resp.data);
-  }).catch(err => {
-      callback(err, null);
-  });
-}
-
 async function myAsyncFunction(url) {
   // Asynchronous code using await
   const result = await someAsyncOperation(url);
@@ -25,4 +17,4 @@ function someAsyncOperation(url) {
   });
 }
 
-module.exports = {newsCallback, myAsyncFunction};
+module.exports = {myAsyncFunction};
