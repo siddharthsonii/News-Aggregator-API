@@ -1,6 +1,4 @@
-# News-Aggregator-API
-
-# Problem Statement
+# News Aggregator API
 
 ## **Objective:**
 
